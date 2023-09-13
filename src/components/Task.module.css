@@ -1,0 +1,23 @@
+.task{
+    display: inline-flex;
+    gap: 0.75rem;
+}
+
+.task p{
+    font-size: 14px;
+}
+
+.unchecked {
+    color: var(--gray-300);
+    text-decoration-line: line-through;
+}
+  
+.checked {
+    color: var(--gray-100);
+}
+
+.task button{
+    background-color: transparent;
+    border: none;
+    color: var(--gray-300);
+}

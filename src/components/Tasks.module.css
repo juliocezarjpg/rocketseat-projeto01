@@ -1,0 +1,57 @@
+.info{
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.info p:first-child{
+    color: var(--blue);
+    font-weight: 700;
+    flex: 0 0 auto;
+}
+
+.info p:nth-child(4){
+    color: var(--purple);
+    font-weight: 700;
+    flex: 0 0 auto;
+}
+
+.info span{
+    width: 100%;
+}
+
+.counter{
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    flex: 0 0 auto;
+}
+
+.tasks{
+    padding-top: 4rem;
+    padding-bottom: 16.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 1rem;
+    border-top: 1px solid var(--gray-400, #333);
+    border-radius: 8px;
+}
+
+.hide{
+    visibility: hidden;
+    max-height: 0;
+}
+
+.empty p:first-child{
+    font-weight: 700;
+}
